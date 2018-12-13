@@ -2,8 +2,6 @@
 
 set -eu
 
-echo $CAKE_SCRIPT
-
-cake --version
+cake $CAKE_SCRIPT --target=$*
 
 exit $?
