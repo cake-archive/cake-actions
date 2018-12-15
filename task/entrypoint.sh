@@ -2,7 +2,7 @@
 
 set -eu
 
-cake --version
+cake --info
 
 cake $CAKE_SCRIPT --target=$*
 
