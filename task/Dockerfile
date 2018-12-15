@@ -1,4 +1,4 @@
-FROM cakebuild/cake:v0.30.0-2.1-sdk as base
+FROM cakebuild/cake:v0.31.0-2.1-sdk as base
 
 FROM base as cake-build
 LABEL "com.github.actions.name"         = "Cake task"
